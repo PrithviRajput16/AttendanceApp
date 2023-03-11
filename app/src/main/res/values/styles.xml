@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- android_small___1 styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="DialogTheme" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+		<item name="dialogCornerRadius">23dp</item>
+		<item name="android:background">@drawable/rectangle_6_shape</item>
+	</style>
+
+</resources>

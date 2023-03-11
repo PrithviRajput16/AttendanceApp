@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/rectangle_6_shape" />
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="255dp"
+        android:layout_height="91.5dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/subject___string"
+        android:textColor="@color/_bg__android_small___1_ek2_color"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@id/rectangle_6"
+        android:layout_alignBottom="@id/rectangle_6"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/vector"
+        android:src="@drawable/ok" />
+
+    <ImageView
+        android:id="@+id/not"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@id/rectangle_6"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="23dp"
+        android:contentDescription="@string/vector_ek1"
+        android:src="@drawable/cross" />
+
+</RelativeLayout>
+
